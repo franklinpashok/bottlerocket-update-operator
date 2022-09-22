@@ -25,7 +25,7 @@ helm uninstall my-brupop
 
 The command removes all the Kubernetes components associated with the chart and deletes the release.
 
-## Configuration
+## Values
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
