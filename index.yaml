@@ -3,7 +3,17 @@ entries:
   bottlerocket-brupop:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-09-22T20:27:05.133883+08:00"
+    created: "2022-09-22T21:30:29.155683+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2592653c43f467d956f810a3c2054e5ad450b65a00d58651ad4e13ee290c2d9b
+    name: bottlerocket-brupop
+    type: application
+    urls:
+    - bottlerocket-brupop-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2022-09-22T21:30:29.154143+08:00"
     description: A Helm chart for Kubernetes
     digest: 3bee64a2b040ffda0ef5215c7368d36f619383e0946d049d8e29d13460fa78e6
     name: bottlerocket-brupop
@@ -13,7 +23,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-09-22T20:27:05.132465+08:00"
+    created: "2022-09-22T21:30:29.153459+08:00"
     description: A Helm chart for Kubernetes
     digest: 76b7b2d731086ce822aa5d64e1c3c9e75e1f24ea5f8c7227a3d70dad3e5a463a
     name: bottlerocket-brupop
@@ -24,7 +34,7 @@ entries:
   bottlerocket-update-operator:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-09-22T20:27:05.136589+08:00"
+    created: "2022-09-22T21:30:29.158289+08:00"
     description: A Helm chart for Kubernetes
     digest: 863697aa2ec5fef8220cfe63237c6a6614c47675b3b3666cd2349e5581390915
     name: bottlerocket-update-operator
@@ -34,7 +44,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-09-22T20:27:05.135701+08:00"
+    created: "2022-09-22T21:30:29.157358+08:00"
     description: A Helm chart for Kubernetes
     digest: e1e3a10d66a57526e5c53b0f3507b8b1888b5e7bc7882d33e5efae2b386ad98b
     name: bottlerocket-update-operator
@@ -44,7 +54,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-22T20:27:05.134793+08:00"
+    created: "2022-09-22T21:30:29.156544+08:00"
     description: A Helm chart for Kubernetes
     digest: 9c9538bce52bffa05da6f2cac5878f07428d69f271b7c8c6da58c1ddbfcade1f
     name: bottlerocket-update-operator
@@ -52,4 +62,4 @@ entries:
     urls:
     - bottlerocket-update-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-22T20:27:05.130755+08:00"
+generated: "2022-09-22T21:30:29.152021+08:00"
