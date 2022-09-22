@@ -1,8 +1,31 @@
 # bottlerocket-update-operator
 
-![Version: 0.2.0](https://img.shields.io/badge/Version-0.2.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.1](https://img.shields.io/badge/AppVersion-1.16.1-informational?style=flat-square)
+![Version: 0.3.0](https://img.shields.io/badge/Version-0.3.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.16.1](https://img.shields.io/badge/AppVersion-1.16.1-informational?style=flat-square)
 
 A Helm chart for Kubernetes
+
+## Get Repo Info
+```console
+helm repo add bottlerocket-update-operator https://franklinpashok.github.io/bottlerocket-update-operator/
+helm repo update
+```
+
+## Installing the Chart
+To install the chart with the release name my-release:
+
+```console
+helm install my-brupop bottlerocket-update-operator/bottlerocket-update-operator
+```
+
+## Uninstalling the Chart
+
+To uninstall/delete the my-release deployment:
+
+```console
+helm uninstall my-brupop
+```
+
+The command removes all the Kubernetes components associated with the chart and deletes the release.
 
 ## Values
 
