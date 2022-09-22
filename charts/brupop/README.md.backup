@@ -4,6 +4,29 @@
 
 A Helm chart for Kubernetes
 
+## Get Repo Info
+```console
+helm repo add bottlerocket-update-operator https://franklinpashok.github.io/bottlerocket-update-operator/
+helm repo update
+```
+
+## Installing the Chart
+To install the chart with the release name my-release:
+
+```console
+helm install my-brupop bottlerocket-update-operator/bottlerocket-update-operator
+```
+
+## Uninstalling the Chart
+
+To uninstall/delete the my-release deployment:
+
+```console
+helm uninstall my-brupop
+```
+
+The command removes all the Kubernetes components associated with the chart and deletes the release.
+
 ## Values
 
 | Key | Type | Default | Description |
