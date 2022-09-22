@@ -3,7 +3,6 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   labels:
-{{ include "bottlerocket-update-operator.labels" . | indent 4 }}
     app.kubernetes.io/component: agent
     app.kubernetes.io/managed-by: brupop
     app.kubernetes.io/part-of: brupop
