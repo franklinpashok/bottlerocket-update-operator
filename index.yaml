@@ -3,12 +3,12 @@ entries:
   bottlerocket-update-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-21T15:25:42.206857+08:00"
+    created: "2022-09-22T08:50:18.807589+08:00"
     description: A Helm chart for Kubernetes
-    digest: 7ba21f93c1bba009b2d27f663f0c4228ada8a6f5915f41f09fa7deab37a72a29
+    digest: 9c9538bce52bffa05da6f2cac5878f07428d69f271b7c8c6da58c1ddbfcade1f
     name: bottlerocket-update-operator
     type: application
     urls:
     - bottlerocket-update-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-21T15:25:42.206279+08:00"
+generated: "2022-09-22T08:50:18.806703+08:00"
